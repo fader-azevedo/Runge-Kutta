@@ -1527,7 +1527,7 @@ public class RungeKuttaRk4 extends JFrame {
         jBParente2.setEnabled(false);
         jBSen.setEnabled(false);
         jBTan.setEnabled(false);
-//        jBSubtrador.setEnabled(false);
+//        jBSubtrador.setEnabled(false);ç
         jBTan.setEnabled(false);
         jBX.setEnabled(false);
         jBY.setEnabled(false);
