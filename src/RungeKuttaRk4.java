@@ -1,4 +1,3 @@
-
 import static com.sun.javafx.tk.Toolkit.getToolkit;
 import java.awt.Color;
 import static java.awt.Frame.MAXIMIZED_BOTH;
@@ -14,10 +13,6 @@ import javax.swing.table.DefaultTableModel;
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
 import org.math.plot.Plot2DPanel;
-
-
-
-
 /**
  *
  * @author Fader Azevedo Macuvele
