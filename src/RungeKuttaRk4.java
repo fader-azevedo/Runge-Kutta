@@ -1574,7 +1574,6 @@ public class RungeKuttaRk4 extends JFrame {
         grafico.addLinePlot("", xg, yg);
         grafico.addScatterPlot("", Color.RED, xg, yg);
     }
-
     /**
      * @param args the command line arguments
      */
@@ -1592,7 +1591,6 @@ public class RungeKuttaRk4 extends JFrame {
             }
         });
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton butCalcular;
     private javax.swing.JButton butExport;
@@ -1657,7 +1655,7 @@ public class RungeKuttaRk4 extends JFrame {
     // End of variables declaration//GEN-END:variables
 
     private double x, y, f, h, xi, xf, yn1, k1, k2, k3, k4;
-    int contador, controlador;
+    private int contador, controlador;
     private String leitura = "primeira";
     private String memoria = "";
 }
