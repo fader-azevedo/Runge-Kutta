@@ -1,8 +1,5 @@
-import static com.sun.javafx.tk.Toolkit.getToolkit;
 import java.awt.Color;
-import static java.awt.Frame.MAXIMIZED_BOTH;
 import java.awt.Toolkit;
-import java.awt.event.KeyEvent;
 import static java.lang.String.format;
 import java.text.MessageFormat;
 import javax.swing.JFrame;
@@ -34,7 +31,6 @@ public class RungeKuttaRk4 extends JFrame {
         this.model.setColumnIdentifiers(colunasOrdem1);
         this.tabela.setModel(model);
         orderm = "1ª Ordem";
-//        this.setExtendedState(MAXIMIZED_BOTH);
         this.tabela.getColumnModel().getColumn(0).setPreferredWidth(0);
         controlador = 0;
         grafico.setBounds(5, 15, 650, 310);
