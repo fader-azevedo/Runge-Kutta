@@ -1574,9 +1574,7 @@ public class RungeKuttaRk4 extends JFrame {
         grafico.addLinePlot("", xg, yg);
         grafico.addScatterPlot("", Color.RED, xg, yg);
     }
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String args[]) {
 
         try {
