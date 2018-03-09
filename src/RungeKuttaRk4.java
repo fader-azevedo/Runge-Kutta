@@ -1495,7 +1495,6 @@ public class RungeKuttaRk4 extends JFrame {
                 String K3 = format("%." + casas + "f%n", k3);
                 String K4 = format("%." + casas + "f%n", k4);
                 String YN1 = format("%." + casas + "f%n", yn1);
-
                 model.addRow(new String[]{contador + "", x + "", Y, K1, K2, K3, K4, YN1});
 
                 contador += 1;
