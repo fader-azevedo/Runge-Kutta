@@ -1562,7 +1562,6 @@ public class RungeKuttaRk4 extends JFrame {
                 yg[i-1] = Double.parseDouble(yy1);
             }
         }else{
-
             for (int i = 0; i < tamanho; i++) {
                 String xx = (String) tabela.getValueAt(i, 1);
                 String yy = (String) tabela.getValueAt(i, 2);
