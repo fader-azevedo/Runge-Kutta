@@ -867,35 +867,19 @@ public class RungeKuttaRk4 extends JFrame {
     }//GEN-LAST:event_butCalcularActionPerformed
 
     private void txtCondicaoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCondicaoKeyTyped
-//        char c = evt.getKeyChar();
-//        if (!(Character.isDigit(c) || (c == KeyEvent.VK_BACK_SPACE) || (c == KeyEvent.VK_DELETE) || (c == KeyEvent.VK_PERIOD))) {
-//            getToolkit().beep();
-//            evt.consume();
-//        }
+
     }//GEN-LAST:event_txtCondicaoKeyTyped
 
     private void txtAlturaKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtAlturaKeyTyped
-//        char c = evt.getKeyChar();
-//        if (!(Character.isDigit(c) || (c == KeyEvent.VK_BACK_SPACE) || (c == KeyEvent.VK_DELETE) || (c == KeyEvent.VK_PERIOD))) {
-//            getToolkit().beep();
-//            evt.consume();
-//        }
+
     }//GEN-LAST:event_txtAlturaKeyTyped
 
     private void txtXinicialKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtXinicialKeyTyped
-//        char c = evt.getKeyChar();
-//        if (!(Character.isDigit(c) || (c == KeyEvent.VK_BACK_SPACE) || (c == KeyEvent.VK_DELETE) || (c == KeyEvent.VK_PERIOD))) {
-//            getToolkit().beep();
-//            evt.consume();
-//        }
+
     }//GEN-LAST:event_txtXinicialKeyTyped
 
     private void txtYinicialKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtYinicialKeyTyped
-//        char c = evt.getKeyChar();
-//        if (!(Character.isDigit(c) || (c == KeyEvent.VK_BACK_SPACE) || (c == KeyEvent.VK_DELETE) || (c == KeyEvent.VK_PERIOD))) {
-//            getToolkit().beep();
-//            evt.consume();
-//        }
+
     }//GEN-LAST:event_txtYinicialKeyTyped
 
     private void butExportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_butExportActionPerformed
