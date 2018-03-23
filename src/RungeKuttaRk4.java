@@ -883,7 +883,6 @@ public class RungeKuttaRk4 extends JFrame {
     }//GEN-LAST:event_txtYinicialKeyTyped
 
     private void butExportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_butExportActionPerformed
-
         int linha = tabela.getRowCount();
         if (linha <= 0) {
             JOptionPane.showMessageDialog(null, "Sem Resultado Para Exportar", "Erro", 0);
