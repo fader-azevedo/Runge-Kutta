@@ -38,7 +38,7 @@ public class RungeKuttaRk4 extends JFrame {
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icons/icon.png")));
     }
 
-    /*Funcao usada para gerar resultados de acordo com paramentros especificados*/
+    /*Funcao usada para gerar resultados de acordo com paramentros especificados (x e y)*/
     public double funcao(double x, double y) {
         Expression exp = new ExpressionBuilder(txtFuncao.getText()).variables("x", "y").build().setVariable("x", x).setVariable("y", y);
         return exp.evaluate();
