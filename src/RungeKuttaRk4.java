@@ -1269,7 +1269,6 @@ public class RungeKuttaRk4 extends JFrame {
         if (orderm.equalsIgnoreCase("1ª ordem")) {
             this.model.setColumnIdentifiers(colunasOrdem1);
             this.tabela.setModel(model);
-
             if (controlador == 1) {
                 calcular();
             }
@@ -1277,7 +1276,6 @@ public class RungeKuttaRk4 extends JFrame {
         if (orderm.equalsIgnoreCase("2ª ordem")) {
             this.model.setColumnIdentifiers(colunasOrdem2);
             this.tabela.setModel(model);
-
             if (controlador == 1) {
                 calcular();
             }
@@ -1286,7 +1284,6 @@ public class RungeKuttaRk4 extends JFrame {
         if (orderm.equalsIgnoreCase("3ª ordem")) {
             this.model.setColumnIdentifiers(colunasOrdem3);
             this.tabela.setModel(model);
-
             if (controlador == 1) {
                 calcular();
             }
@@ -1295,7 +1292,6 @@ public class RungeKuttaRk4 extends JFrame {
         if (orderm.equalsIgnoreCase("4ª ordem")) {
             this.model.setColumnIdentifiers(colunasOrdem4);
             this.tabela.setModel(model);
-
             if (controlador == 1) {
                 calcular();
             }
@@ -1310,7 +1306,6 @@ public class RungeKuttaRk4 extends JFrame {
         txtYinicial.setText("");
         int numLinhas = model.getRowCount();
         if (numLinhas > 0) {
-
             for (int i = 0; i < numLinhas; i++) {
                 model.removeRow(0);
             }
@@ -1395,7 +1390,6 @@ public class RungeKuttaRk4 extends JFrame {
 
         int numLinhas = model.getRowCount();
         if (numLinhas > 0) {
-
             for (int i = 0; i < numLinhas; i++) {
                 model.removeRow(0);
             }
@@ -1404,7 +1398,6 @@ public class RungeKuttaRk4 extends JFrame {
         /*Primeira Ordem*/
         if (orderm.equalsIgnoreCase("1ª ordem")) {
             while (x <= xf) {
-
                 f = funcao(x, y);
                 yn1 = y + h * funcao(x, y);
 
@@ -1493,7 +1486,6 @@ public class RungeKuttaRk4 extends JFrame {
 
     private void desabilitar() {
         jBCos.setEnabled(false);
-//        jBAdicionador.setEnabled(false);
         jBDivisor.setEnabled(false);
         jBE.setEnabled(false);
         jBElevado.setEnabled(false);
