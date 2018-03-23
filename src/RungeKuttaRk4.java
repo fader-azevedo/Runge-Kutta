@@ -893,7 +893,7 @@ public class RungeKuttaRk4 extends JFrame {
         try {
             tabela.print(JTable.PrintMode.NORMAL, hearder, body);
         } catch (java.awt.print.PrinterException e) {
-            System.err.format("Erro", e.getMessage());
+            System.err.format("Erro ao exportar a tabela", e.getMessage());
         }
     }//GEN-LAST:event_butExportActionPerformed
 
