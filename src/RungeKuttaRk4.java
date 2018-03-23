@@ -19,7 +19,7 @@ public class RungeKuttaRk4 extends JFrame {
     private final DefaultTableModel model = new DefaultTableModel();
     private String orderm;
     private final String[] colunasOrdem1 = {"i", "Xi", "Yi", "F", "Yi+1"};
-    private String[] colunasOrdem2 = {"i", "Xi", "Yi", "F", "Yi+1"};
+    private final String[] colunasOrdem2 = {"i", "Xi", "Yi", "F", "Yi+1"};
     private String[] colunasOrdem3 = {"i", "Xi", "Yi", "K1", "K2", "K3", "Yi+1"};
     private String[] colunasOrdem4 = {"i", "Xi", "Yi", "K1", "K2", "K3", "K4", "Yi+1"};
     private Plot2DPanel grafico = new Plot2DPanel();
