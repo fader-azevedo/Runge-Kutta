@@ -22,7 +22,7 @@ public class RungeKuttaRk4 extends JFrame {
     private final String[] colunasOrdem2 = {"i", "Xi", "Yi", "F", "Yi+1"};
     private final String[] colunasOrdem3 = {"i", "Xi", "Yi", "K1", "K2", "K3", "Yi+1"};
     private final String[] colunasOrdem4 = {"i", "Xi", "Yi", "K1", "K2", "K3", "K4", "Yi+1"};
-    private Plot2DPanel grafico = new Plot2DPanel();
+    private final Plot2DPanel grafico = new Plot2DPanel();
 
     public RungeKuttaRk4() {
         initComponents();
