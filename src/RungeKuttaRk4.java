@@ -1496,7 +1496,6 @@ public class RungeKuttaRk4 extends JFrame {
         jBParente2.setEnabled(false);
         jBSen.setEnabled(false);
         jBTan.setEnabled(false);
-//        jBSubtrador.setEnabled(false);ç
         jBTan.setEnabled(false);
         jBX.setEnabled(false);
         jBY.setEnabled(false);
@@ -1505,7 +1504,6 @@ public class RungeKuttaRk4 extends JFrame {
 
     private void abiliar() {
         jBCos.setEnabled(true);
-//        jBAdicionador.setEnabled(true);
         jBDivisor.setEnabled(true);
         jBE.setEnabled(true);
         jBElevado.setEnabled(true);
@@ -1516,7 +1514,6 @@ public class RungeKuttaRk4 extends JFrame {
         jBParente2.setEnabled(true);
         jBSen.setEnabled(true);
         jBTan.setEnabled(true);
-//        jBSubtrador.setEnabled(true);
         jBTan.setEnabled(true);
         jBX.setEnabled(true);
         jBY.setEnabled(true);
@@ -1549,7 +1546,6 @@ public class RungeKuttaRk4 extends JFrame {
     }
 
     public static void main(String args[]) {
-
         try {
             UIManager.setLookAndFeel("com.jtattoo.plaf.acryl.AcrylLookAndFeel");
         } catch (Exception e) {
